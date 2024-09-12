@@ -28,7 +28,7 @@ const App = () => {
           }
         });
         const filterdContacts=contactLists.filter(contact=>
-          contact.username.includes(username)&& contact.username.includes(username))
+          contact.username.includes(username))
   
           setContacts(filterdContacts);
         
@@ -52,7 +52,7 @@ const App = () => {
           }
         });
        const filterdContacts=contactLists.filter(contact=>
-        contact.name.toLowerCase().includes(value.toLowerCase()))
+        contact.name.toLowerCase().includes(value.toLowerCase())&& contact.username.includes(username))
 
         setContacts(filterdContacts);
 
