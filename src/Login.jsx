@@ -107,7 +107,7 @@ const Login = () => {
 
                     <div className='flex flex-col gap-1'>
                     <label htmlFor="password">Password</label>
-                    <Field name="password" type="String"className="border h-10 "/>
+                    <Field name="password" type="password"className="border h-10 "/>
                     </div>
                     <div className='flex justify-center'>
                     <button type='submit' className='bg-orange-500 w-32 rounded-md flex  justify-center  py-1 px-3 border'>
